@@ -62,13 +62,14 @@ var videoController = {
     connectToFirebase: function () {
         var that = this;
 
-        /* PASTE CONFIG HERE */
-        // var config = {
-        //   apiKey: "",
-        //   authDomain: "",
-        //   databaseURL: "",
-        //   storageBucket: "",
-        // };
+        var config = {
+            apiKey: "AIzaSyCvBDsnd18Eltf_ZWqJ8IeVmovUSyA3HtU",
+            authDomain: "test-luca-b7821.firebaseapp.com",
+            databaseURL: "https://test-luca-b7821.firebaseio.com",
+            projectId: "test-luca-b7821",
+            storageBucket: "test-luca-b7821.appspot.com",
+            messagingSenderId: "1069969570162"
+        };
 
         firebase.initializeApp(config);
 
